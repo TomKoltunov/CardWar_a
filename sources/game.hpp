@@ -1,3 +1,14 @@
+/**
+ * @file game.hpp
+ * @author your name (you@domain.com)
+ * @brief Headers for 'game' object
+ * @version 0.1
+ * @date 2023-03-27
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include "player.hpp"
 #include <iostream>
 
