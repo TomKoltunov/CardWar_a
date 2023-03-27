@@ -16,5 +16,8 @@ using namespace std;
 
 namespace ariel
 {
-    
+    Card::Card(int number)
+    {
+        
+    }
 }

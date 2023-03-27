@@ -9,17 +9,16 @@
  * 
  */
 
+#pragma once
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-namespace ariel
+class Player
 {
-    class Player
-    {
+    public:
         Player(string name);
-        void stacksize(); // Prints the amount of cards left. Should be 21 but can be less if a draw was played
-        void cardesTaken(); // Prints the amount of cards this player has won
-    }
-}
+        int stacksize(); // Prints the amount of cards left. Should be 21 but can be less if a draw was played
+        int cardesTaken(); // Prints the amount of cards this player has won
+};

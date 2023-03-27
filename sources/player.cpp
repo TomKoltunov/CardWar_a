@@ -11,23 +11,21 @@
 
 #include "player.hpp"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-namespace ariel
+Player::Player(string name)
 {
-    Player::Player(string name)
-    {
 
-    }
+}
 
-    void Player::stacksize()
-    {
+int Player::stacksize()
+{
+    return 0;
+}
 
-    }
-
-    void Player::cardesTaken()
-    {
-        
-    }
+int Player::cardesTaken()
+{
+    return 0;
 }

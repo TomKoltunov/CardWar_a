@@ -17,6 +17,6 @@ namespace ariel
 {
     class Card
     {
-        
-    }
+        Card(int number);
+    };
 }
