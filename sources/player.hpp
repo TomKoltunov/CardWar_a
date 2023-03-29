@@ -18,10 +18,10 @@ using namespace std;
 namespace ariel
 {
     class Player
-{
-    public:
-        Player(string name);
-        int stacksize(); // Prints the amount of cards left. Should be 21 but can be less if a draw was played
-        int cardesTaken(); // Prints the amount of cards this player has won
-};
+    {
+        public:
+            Player(string name);
+            int stacksize(); // Prints the amount of cards left. Should be 21 but can be less if a draw was played
+            int cardesTaken(); // Prints the amount of cards this player has won
+    };
 }
